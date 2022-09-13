@@ -48,7 +48,6 @@ def set_color_cb(req):
     clear= rospy.ServiceProxy("/clear",Empty)
     clear()  
     return []
-#imt_turtle.srv.SetcolorResponse()
     
 
 if __name__ == '__main__':
