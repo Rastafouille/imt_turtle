@@ -1,0 +1,27 @@
+<!-- comment -->
+<launch>
+  <arg name="multi_robot_name" default=""/>
+  <arg name="model" default="burger"/>
+
+  <include file="$(find turtlebot3_bringup)/launch/includes/description.launch.xml">
+    <arg name="model" value="$(arg model)" />
+  </include>
+
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="50.0" />
+    <param name="tf_prefix" value="$(arg multi_robot_name)"/>
+  </node>
+
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+    <param name="use_gui" value="false"/>
+    <param name="rate" value="50"/>
+  </node>
+
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find turtle-imt-ales)/rviz/config.rviz" />
+   
+  <node pkg="turtlebot3_teleop" type="turtlebot3_teleop_key" name="turtlebot3_teleop_keyboard"  output="screen"/>
+
+
+</launch>
+
