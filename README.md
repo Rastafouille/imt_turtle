@@ -8,7 +8,10 @@
 ## Réseau IMT
 --> se connecter en ethernet pour avoir internet pour les mises à jour si necessaire
 
---> creer un hotspot wifi SSID Turtlebot<n°> et mtp Turtlebot<n°> adresse de la turtle bot normalement 10.42.0.1
+--> sur la turtlebot, créer un hotspot wifi SSID Turtlebot<n°> et mtp Turtlebot<n°> adresse de la turtle bot normalement 10.42.0.1
+
+--> sur le pc de pilotage, se connecter au hotspot de la turtle bot et parametrer le .bashrc avec son adresse ip
+
 
 ## Package ROS TP IMT Ales
 
