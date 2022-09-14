@@ -22,7 +22,7 @@ on Ubuntu 20.04
 	cd rtl8192eu-linux
 	./install_wifi.sh
 	
-## Clé wifi TL-WN823N double band
+## Clé wifi T600 et T2U double band
 
 on Ubuntu 20.04 
 	
