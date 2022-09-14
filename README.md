@@ -4,6 +4,11 @@
 
 <https://docs.google.com/presentation/d/1KK2pByMb-ojbXt3BGP8r6uaXgIfrKsmY/edit?usp=sharing&ouid=115338138531092523446&rtpof=true&sd=true>
 
+
+## Réseau IMT
+--> se connecter en ethernet pour avoir internet pour les mises à jour si necessaire
+--> creer un hotspot wifi SSID Turtlebot<n°> et mtp Turtlebot<n°> adresse de la turtle bot normalement 10.42.0.1
+
 ## Package ROS TP IMT Ales
 
 	$ sudo apt-get install git
