@@ -29,7 +29,7 @@ on Ubuntu 20.04
 	sudo apt-get install dkms
  	git clone https://github.com/aircrack-ng/rtl8812au.git
 	cd rtl8812au
-	./install_wifi.sh
+	sudo make dkms_install
 	
 	
 
