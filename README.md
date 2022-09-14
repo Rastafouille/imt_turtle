@@ -10,6 +10,8 @@
 
 --> sur la turtlebot, créer un hotspot wifi SSID Turtlebot<n°> et mtp Turtlebot<n°> adresse de la turtle bot normalement 10.42.0.1
 
+<https://www.how2shout.com/how-to/2-ways-to-create-wifi-hotspot-in-ubuntu-20-04-lts-focal-fossa.html>
+
 --> sur le pc de pilotage, se connecter au hotspot de la turtle bot et parametrer le .bashrc avec son adresse ip
 
 
